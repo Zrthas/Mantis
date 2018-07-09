@@ -1,0 +1,2 @@
+# Mantis
+Common ID generator
