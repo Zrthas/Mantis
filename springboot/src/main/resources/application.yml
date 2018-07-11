@@ -1,0 +1,4 @@
+#读取哪个配置文件，减少切换环境时出错的概率
+spring:
+  profiles:
+    active: dev

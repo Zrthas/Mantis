@@ -1,0 +1,18 @@
+#该文件的作用是 Spring Boot 项目的配置文件
+#服务默认端口
+#server.port= 8081
+#项目启动名称
+#server.servlet.context-path=/springboot
+#注意与application.properties的区别，建议使用application.yml进行配置。原application.properties已删除
+#假装是开发环境
+server:
+  port: 8881
+  servlet:
+    context-path: /springboot
+score: 90
+age: 21
+content: "the score is ${score} and age is ${age}"
+student:
+  score: 90
+  age: 21
+  name: Mary
