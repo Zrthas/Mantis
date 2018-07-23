@@ -1,2 +1,3 @@
 # Mantis
-Common ID generator
+
+主要用于新技术的学习与测试
