@@ -1,3 +1,4 @@
+
 #该文件的作用是 Spring Boot 项目的配置文件
 #服务默认端口
 #server.port= 8081
@@ -16,3 +17,13 @@ student:
   score: 90
   age: 21
   name: Mary
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://【你的数据库IP:数据库端口号】/student
+    username: [你的账户名]
+    password: [你的密码]
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
